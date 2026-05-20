@@ -76,4 +76,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
+    background-color: #FFDFFD;
+}
+
+.section-hero {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
 }
