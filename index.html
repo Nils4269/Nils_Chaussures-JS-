@@ -10,17 +10,31 @@
 </head>
 
 <body>
-    <header class="header">
+<header class="flex space-between p-40">
 
-        <h1>BonPied - Sneakers Éco-sourcés à Rennes</h1>
 
-        <p>Marchez avec style tout en respectant la planète avec BonPied, votre destination de sneakers éco-sourcés à
-            Rennes</p>
+        <img src="asset/logo-black.png" alt="">
 
-        <a href="">Découvrez notre collection responsable</a>
+
+        <nav class="flex gap-8">
+            <a href="" class="black">L'agence</a>
+            <a href="" class="black">Les projets</a>
+            <a href="" class="black">L'équipe</a>
+            <a href="" class="black">La communauté</a>
+        </nav>
 
     </header>
-    <main>
+    <main>  
+        <!-- Section HERO -->
+        <section>
+            <h1 class="justify-center">BonPied - Sneakers Éco-sourcés à Rennes</h1>
+
+            <p>Marchez avec style tout en respectant la planète avec BonPied, votre destination de sneakers éco-sourcés
+                à
+                Rennes</p>
+
+            <a href="">Découvrez notre collection responsable</a>
+        </section>
         <!-- Section 1 -->
         <section>
             <h2>Pourquoi choisir BonPied ?</h2>
@@ -33,48 +47,37 @@
             </div>
 
         </section>
-        <!-- Section 2 -->
-        <section>
-            <h2>Nos produits</h2>
-
-            <div id="produitsContainer"></div>
-            <!-- 
-                        <div>
+        <!--PRODUIT -->
+        <section id="produitsContainer"
+            class="flex mt-32 responsive carte-produit container-1200 justify-around conteneur-produits">
+<!--  
+            <div class="card conteneur-produits">
                 <img src="https://nico-on-web.github.io/sneakers-assignement-js/images/paire1.png" alt="">
+                <div class="card-content">
+                    <h3>Sneakers Classic</h3>
+                    <p>Adoptez le style classique avec nos sneakers éco-sourcés.Conçues avec des matériaux recyclés,
+                        elles allient confort, durabilité et élégance.</p>  
+                </div>
+            </div>-->
 
-                <h3>Sneakers Classic</h3>
-
-                <p>Adoptez le style classique avec nos sneakers éco-sourcés.Conçues avec des matériaux recyclés, elles
-                    allient confort, durabilité et élégance.</p>
-
-            </div>
-            -->
-
-
-
-     >
-
-        
-
-            </div>
         </section>
         <!-- Section 3 -->
         <section>
             <h2>Nos services</h2>
             <div id="servicesContainer">
-              <!-- <h3>Personnalisation</h3>
+                <!-- <h3>Personnalisation</h3>
                 <p>Personnalisez vos sneakers pour un style unique.
                     Choisissez vos couleurs, motifs et matériaux préférés pour des chaussures qui reflètent votre
                     personnalité.
-                </p> -->  
+                </p> -->
             </div>
 
 
         </section>
         <!-- Section 4 -->
-         <section>
+        <section class="conteneur-produits">
             <h2>Témoignages Clients</h2>
-            <div id="temoignageContainer">
+            <div id="temoignageContainer" class="flex mt-32 conteneur-avis">
                 <!-- <h3>Emma</h3>
 
                 <h4>Expérience : Sneakers Urbaines</h4>
@@ -85,13 +88,13 @@
 
             </div>
 
-        
-         </section>
+
+        </section>
 
     </main>
     <footer>
         <p>2026 BonPied - Tous droits réservés.</p>
-
+ux.
 
     </footer>
 

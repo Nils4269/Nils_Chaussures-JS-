@@ -19,8 +19,9 @@ fetch("sneakers1.json")
 function afficherProduits(listeProduits) {
     listeProduits.forEach(produit => {
         console.log(produit)
-        document.querySelector("#produitsContainer").innerHTML += ` <div>
-                <img src="${produit.image}" alt="">
+        document.querySelector("#produitsContainer").innerHTML += ` 
+        <div class="card w-40">
+                <img src="${produit.image}" alt="" class="large-12">
 
                 <h3>${produit.nom}</h3>
                 <p>${produit.description}</p>
@@ -38,7 +39,7 @@ function afficherTemoignages(listeTemoignages){
     // quand j'en aurait trouvé 1 -> envoi dans l'html le témoignage
     listeTemoignages.forEach(temoignage => {
         console.log(temoignage)
-        document.querySelector("#temoignageContainer").innerHTML += `<div>
+        document.querySelector("#temoignageContainer").innerHTML += `<div class="carte-avis mb w-30">
                 <h3>${temoignage.prenom}</h3>
 
                 <h4>Expérience : ${temoignage.typeExperience}</h4>
